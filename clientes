@@ -1,0 +1,17 @@
+namespace Atividade
+{
+classe Clientes
+{
+string pública nome {obter; definir;}
+public string endereco {obter; definir;}
+valor flutuante público {obter; conjunto protegido;}
+public float valor_imposto {get; conjunto protegido;}
+flutuação pública total {obter; conjunto protegido;}
+public virtual void Pagar_Imposto(float v)
+{
+este.valor = v;
+this.valor_imposto = this.valor * 10 / 100;
+este.total = este.valor + este.valor_imposto;
+}
+}
+}
