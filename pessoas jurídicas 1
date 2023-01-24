@@ -1,0 +1,14 @@
+namespace Atividade
+{
+classe Pessoa_Juridica : Clientes
+{
+string pública cnpj {obter; definir;}
+cadeia de caracteres pública, ou seja, {obter; definir;}
+substituição pública void Pagar_Imposto(float v)
+{
+este.valor = v;
+this.valor_imposto = this.valor * 20 / 100;
+este.total =este.valor + este.valor_imposto;
+}
+}
+}
