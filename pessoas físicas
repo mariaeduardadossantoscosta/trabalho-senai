@@ -1,0 +1,8 @@
+namespace Atividade
+{
+classe Pessoa_Fisica : Clientes
+{
+string pública cpf {obter; definir;}
+string pública rg {obter; definir;}
+}
+}
